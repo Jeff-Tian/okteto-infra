@@ -1,8 +1,8 @@
 encryptionsalt: v1:hOawQRhrd8Y=:v1:eZYTD/Zc+4yAl4J2:7iHghRDv2jhYJnj0bgTITvrW45hanw==
 config:
   aws:region: us-east-1
-  okteto-infra:desiredClusterSize: "3"
+  okteto-infra:desiredClusterSize: "2"
   okteto-infra:eksNodeInstanceType: t3.medium
   okteto-infra:maxClusterSize: "6"
-  okteto-infra:minClusterSize: "3"
+  okteto-infra:minClusterSize: "2"
   okteto-infra:vpcNetworkCidr: 10.0.0.0/16

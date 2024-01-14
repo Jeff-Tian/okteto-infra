@@ -13,4 +13,9 @@
     <PackageReference Include="Pulumi.Eks" Version="2.*" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Include=".github\workflows\pull_request.yml" />
+    <Content Include=".github\workflows\push.yml" />
+  </ItemGroup>
+
 </Project>
